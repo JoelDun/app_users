@@ -11,6 +11,7 @@ class User:
     self.registration_date = datetime.datetime.now()
     self.shopping_lists = {}
     self.order_history = []
+    self.posts = []
 
   def __str__(self):
     return f"User {self.name}, Email: {self.email}"
@@ -19,4 +20,5 @@ class User:
     #placeholder for encryption
     return password
   
-    # Add methods for managing shopping lists, order history, and user authentication here
+  def create_post():
+    post_id = len(User.all.)
